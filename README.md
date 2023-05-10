@@ -29,7 +29,7 @@ The technologies used in this project are:
 1. In this project we are going to use Gmail's smtp
 2. To make things easier, you'll need to change the `username` and `password` in `application.properties`;
 
-```json
+```
 spring.mail.username=email@gmail.com
 spring.mail.password=*****************
 ```
@@ -54,7 +54,7 @@ spring.mail.password=*****************
 
 7. Go to the `application.properties` file and copy the instance url and paste it here
 
-```json
+```
 spring.rabbitmq.addresses=amqps:<***** AMQP URL ******>
 spring.rabbitmq.template.queue=ms.email
 ```
