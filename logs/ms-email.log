@@ -1,0 +1,325 @@
+2023-05-09T16:06:07,566 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-05-09T16:06:07,699 INFO  com.mc.email.EmailApplication - Starting EmailApplication using Java 17.0.7 with PID 12984 (C:\Users\mateu\OneDrive\Desktop\Projetos\email\target\classes started by mateu in C:\Users\mateu\OneDrive\Desktop\Projetos\email)
+2023-05-09T16:06:07,712 DEBUG com.mc.email.EmailApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-09T16:06:07,714 INFO  com.mc.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-09T16:06:09,177 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-09T16:06:09,255 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
+2023-05-09T16:06:10,094 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-09T16:06:10,122 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-09T16:06:10,124 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-09T16:06:10,124 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-09T16:06:10,297 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-09T16:06:10,306 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2420 ms
+2023-05-09T16:06:10,638 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-09T16:06:10,727 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-09T16:06:11,179 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-09T16:06:11,392 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6aa6c17
+2023-05-09T16:06:11,396 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-09T16:06:11,468 INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-09T16:06:12,409 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-09T16:06:12,423 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09T16:06:12,925 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-09T16:06:13,835 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-09T16:06:13,895 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-09T16:06:13,907 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [chimpanzee.rmq.cloudamqp.com:5671]
+2023-05-09T16:06:15,137 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7be86438:0/SimpleConnection@62075e3d [delegate=amqp://evtjidfe@35.153.225.39:5671/evtjidfe, localPort=61122]
+2023-05-09T16:06:16,195 INFO  com.mc.email.EmailApplication - Started EmailApplication in 9.324 seconds (process running for 10.136)
+2023-05-09T16:06:38,147 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09T16:06:38,148 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-09T16:06:38,149 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-05-09T16:06:38,199 TRACE com.mc.email.controllers.EmailController - Trace
+2023-05-09T16:06:38,199 DEBUG com.mc.email.controllers.EmailController - Debug
+2023-05-09T16:06:38,200 INFO  com.mc.email.controllers.EmailController - Info
+2023-05-09T16:06:38,200 WARN  com.mc.email.controllers.EmailController - Warn
+2023-05-09T16:06:38,201 ERROR com.mc.email.controllers.EmailController - Error
+2023-05-09T16:06:38,201 FATAL com.mc.email.controllers.EmailController - Fatal
+2023-05-09T16:07:37,511 TRACE com.mc.email.controllers.EmailController - Trace
+2023-05-09T16:07:37,512 DEBUG com.mc.email.controllers.EmailController - Debug
+2023-05-09T16:07:37,512 INFO  com.mc.email.controllers.EmailController - Info
+2023-05-09T16:07:37,512 WARN  com.mc.email.controllers.EmailController - Warn
+2023-05-09T16:07:37,512 ERROR com.mc.email.controllers.EmailController - Error
+2023-05-09T16:07:37,513 FATAL com.mc.email.controllers.EmailController - Fatal
+2023-05-09T17:23:28,601 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-05-09T17:23:28,655 INFO  com.mc.email.EmailApplicationTests - Starting EmailApplicationTests using Java 17.0.4 with PID 9028 (started by mateu in C:\Users\mateu\OneDrive\Desktop\Projetos\email)
+2023-05-09T17:23:28,661 DEBUG com.mc.email.EmailApplicationTests - Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-09T17:23:28,663 INFO  com.mc.email.EmailApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-09T17:23:29,937 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-09T17:23:30,020 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2023-05-09T17:23:30,918 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-09T17:23:31,083 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-09T17:23:31,661 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-09T17:23:31,886 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6658f08a
+2023-05-09T17:23:31,892 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-09T17:23:31,962 INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-09T17:23:32,995 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-09T17:23:33,011 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09T17:23:33,768 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-09T17:23:35,033 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [chimpanzee.rmq.cloudamqp.com:5671]
+2023-05-09T17:23:36,967 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#4629dde5:0/SimpleConnection@164cad52 [delegate=amqp://evtjidfe@35.153.225.39:5671/evtjidfe, localPort=54836]
+2023-05-09T17:23:38,014 INFO  com.mc.email.EmailApplicationTests - Started EmailApplicationTests in 9.962 seconds (process running for 11.6)
+2023-05-09T17:23:38,483 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2023-05-09T17:23:39,192 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2023-05-09T17:23:39,194 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+2023-05-09T17:23:39,381 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09T17:23:39,391 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-09T17:23:39,404 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-09T17:26:02,688 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-05-09T17:26:02,761 INFO  com.mc.email.EmailApplication - Starting EmailApplication using Java 17.0.7 with PID 8120 (C:\Users\mateu\OneDrive\Desktop\Projetos\email\target\classes started by mateu in C:\Users\mateu\OneDrive\Desktop\Projetos\email)
+2023-05-09T17:26:02,768 DEBUG com.mc.email.EmailApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-09T17:26:02,771 INFO  com.mc.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-09T17:26:03,914 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-09T17:26:04,054 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 117 ms. Found 1 JPA repository interfaces.
+2023-05-09T17:26:05,014 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-09T17:26:05,024 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-09T17:26:05,025 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-09T17:26:05,026 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-09T17:26:05,190 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-09T17:26:05,204 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2333 ms
+2023-05-09T17:26:05,638 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-09T17:26:05,776 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-09T17:26:06,317 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-09T17:26:06,517 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1cc708a7
+2023-05-09T17:26:06,521 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-09T17:26:06,594 INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-09T17:26:07,486 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-09T17:26:07,497 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09T17:26:07,915 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-09T17:26:08,707 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-09T17:26:08,741 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-09T17:26:08,749 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [chimpanzee.rmq.cloudamqp.com:5671]
+2023-05-09T17:26:10,013 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#62ba3045:0/SimpleConnection@5fdff4f1 [delegate=amqp://evtjidfe@35.153.225.39:5671/evtjidfe, localPort=64315]
+2023-05-09T17:26:11,075 INFO  com.mc.email.EmailApplication - Started EmailApplication in 8.975 seconds (process running for 9.786)
+2023-05-09T17:26:27,398 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09T17:26:27,399 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-09T17:26:27,401 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-05-09T17:26:31,863 INFO  com.mc.email.services.EmailService - Email sent successfully to: mateus.oak99@gmail.com 
+2023-05-09T17:26:31,914 INFO  com.mc.email.services.EmailService - Email saved successfully emailId: 3972b1a8-6946-4581-9998-7b327d2eabe3 
+2023-05-09T17:48:52,928 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-05-09T17:48:53,027 INFO  com.mc.email.EmailApplication - Starting EmailApplication using Java 17.0.7 with PID 5644 (C:\Users\mateu\OneDrive\Desktop\Projetos\email\target\classes started by mateu in C:\Users\mateu\OneDrive\Desktop\Projetos\email)
+2023-05-09T17:48:53,034 DEBUG com.mc.email.EmailApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-09T17:48:53,038 INFO  com.mc.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-09T17:48:53,969 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-09T17:48:54,045 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2023-05-09T17:48:54,971 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-09T17:48:54,980 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-09T17:48:54,981 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-09T17:48:54,982 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-09T17:48:55,138 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-09T17:48:55,142 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2015 ms
+2023-05-09T17:48:55,406 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-09T17:48:55,498 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-09T17:48:55,914 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-09T17:48:56,069 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6aa6c17
+2023-05-09T17:48:56,071 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-09T17:48:56,124 INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-09T17:49:03,159 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-05-09T17:49:03,262 INFO  com.mc.email.EmailApplication - Starting EmailApplication using Java 17.0.7 with PID 12964 (C:\Users\mateu\OneDrive\Desktop\Projetos\email\target\classes started by mateu in C:\Users\mateu\OneDrive\Desktop\Projetos\email)
+2023-05-09T17:49:03,270 DEBUG com.mc.email.EmailApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-09T17:49:03,273 INFO  com.mc.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-09T17:49:04,300 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-09T17:49:04,382 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2023-05-09T17:49:05,183 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-09T17:49:05,204 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-09T17:49:05,206 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-09T17:49:05,206 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-09T17:49:05,354 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-09T17:49:05,359 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2000 ms
+2023-05-09T17:49:05,622 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-09T17:49:05,738 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-09T17:49:06,505 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-09T17:49:06,723 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@36525ab
+2023-05-09T17:49:06,727 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-09T17:49:06,798 INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-09T17:49:07,741 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-09T17:49:07,753 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09T17:49:08,321 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-09T17:49:09,083 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-09T17:49:09,124 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-09T17:49:09,136 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [chimpanzee.rmq.cloudamqp.com:5671]
+2023-05-09T17:49:10,365 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#76ebd595:0/SimpleConnection@117be84a [delegate=amqp://evtjidfe@35.153.225.39:5671/evtjidfe, localPort=60722]
+2023-05-09T17:49:11,389 INFO  com.mc.email.EmailApplication - Started EmailApplication in 8.845 seconds (process running for 9.836)
+2023-05-09T17:49:57,134 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09T17:49:57,135 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-09T17:49:57,138 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-05-09T17:52:52,852 INFO  com.mc.email.services.EmailService - Email sent successfully to: mateus.oak99@gmail.com 
+2023-05-09T17:53:25,859 INFO  com.mc.email.services.EmailService - Email saved successfully emailId: 42053b71-c92f-49af-87b9-ccf292a29a3c 
+2023-05-09T17:54:05,057 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-05-09T17:54:05,121 INFO  com.mc.email.EmailApplication - Starting EmailApplication using Java 17.0.7 with PID 2932 (C:\Users\mateu\OneDrive\Desktop\Projetos\email\target\classes started by mateu in C:\Users\mateu\OneDrive\Desktop\Projetos\email)
+2023-05-09T17:54:05,126 DEBUG com.mc.email.EmailApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-09T17:54:05,129 INFO  com.mc.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-09T17:54:05,939 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-09T17:54:06,032 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interfaces.
+2023-05-09T17:54:06,766 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-09T17:54:06,780 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-09T17:54:06,782 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-09T17:54:06,783 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-09T17:54:06,959 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-09T17:54:06,963 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1772 ms
+2023-05-09T17:54:07,377 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-09T17:54:07,454 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-09T17:54:07,815 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-09T17:54:07,995 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@698f4aa
+2023-05-09T17:54:07,997 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-09T17:54:08,046 INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-09T17:54:08,969 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-09T17:54:08,979 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09T17:54:09,355 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-09T17:54:09,985 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-09T17:54:10,010 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-09T17:54:10,015 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [chimpanzee.rmq.cloudamqp.com:5671]
+2023-05-09T17:54:11,232 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#4936fbc6:0/SimpleConnection@771ede0d [delegate=amqp://evtjidfe@35.153.225.39:5671/evtjidfe, localPort=62461]
+2023-05-09T17:54:12,267 INFO  com.mc.email.EmailApplication - Started EmailApplication in 7.856 seconds (process running for 8.685)
+2023-05-09T17:54:14,274 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09T17:54:14,275 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-09T17:54:14,276 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-05-09T17:54:16,739 ERROR com.mc.email.services.EmailService - Email with error: EmailModel(emailId=null, ownerRef=Mateus, emailFrom=mateuskkk@gmail.com, emailTo=mateus.oak99@gmail.com, subject=Teste testando8, text=Olá tudo bem? Testando 123, sendDateEmail=2023-05-09T14:54:14.419408400, statusEmail=ERROR) 
+2023-05-09T17:54:16,740 ERROR com.mc.email.services.EmailService - Error {} 
+org.springframework.mail.MailAuthenticationException: Authentication failed
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:440) ~[spring-context-support-6.0.8.jar:6.0.8]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323) ~[spring-context-support-6.0.8.jar:6.0.8]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312) ~[spring-context-support-6.0.8.jar:6.0.8]
+	at com.mc.email.services.EmailService.sendEmail(EmailService.java:48) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-6.0.8.jar:6.0.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391) ~[spring-tx-6.0.8.jar:6.0.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702) ~[spring-aop-6.0.8.jar:6.0.8]
+	at com.mc.email.services.EmailService$$SpringCGLIB$$0.sendEmail(<generated>) ~[classes/:?]
+	at com.mc.email.controllers.EmailController.sendingEmail(EmailController.java:37) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+Caused by: jakarta.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials g2-20020a056870e1c200b0017aafd12843sm6269367oab.32 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:979) ~[jakarta.mail-1.0.0.jar:?]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:890) ~[jakarta.mail-1.0.0.jar:?]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:794) ~[jakarta.mail-1.0.0.jar:?]
+	at jakarta.mail.Service.connect(Service.java:342) ~[jakarta.mail-1.0.0.jar:?]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518) ~[spring-context-support-6.0.8.jar:6.0.8]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437) ~[spring-context-support-6.0.8.jar:6.0.8]
+	... 69 more
+2023-05-09T17:54:16,827 INFO  com.mc.email.services.EmailService - Email saved successfully emailId: 3d3d685b-400d-4641-acd8-9c625e63a851 
+2023-05-10T19:05:12,283 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-05-10T19:05:12,344 INFO  com.mc.email.EmailApplication - Starting EmailApplication using Java 17.0.7 with PID 7736 (C:\Users\mateu\OneDrive\Desktop\Projetos\email\target\classes started by mateu in C:\Users\mateu\OneDrive\Desktop\Projetos\email)
+2023-05-10T19:05:12,350 DEBUG com.mc.email.EmailApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-10T19:05:12,353 INFO  com.mc.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-10T19:05:13,205 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-10T19:05:13,282 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2023-05-10T19:05:14,147 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-10T19:05:14,163 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-10T19:05:14,165 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-10T19:05:14,165 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-10T19:05:14,291 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-10T19:05:14,295 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1870 ms
+2023-05-10T19:05:14,507 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-10T19:05:14,595 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-10T19:05:15,011 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-10T19:05:15,286 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6aa6c17
+2023-05-10T19:05:15,288 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-10T19:05:15,383 INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-10T19:05:16,431 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-10T19:05:16,445 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-10T19:05:16,903 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-10T19:05:17,558 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-10T19:05:17,589 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-10T19:05:17,596 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [chimpanzee.rmq.cloudamqp.com:5671]
+2023-05-10T19:05:19,237 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7be86438:0/SimpleConnection@62075e3d [delegate=amqp://evtjidfe@35.153.225.39:5671/evtjidfe, localPort=49922]
+2023-05-10T19:05:20,292 INFO  com.mc.email.EmailApplication - Started EmailApplication in 8.68 seconds (process running for 9.393)
+2023-05-10T19:05:31,331 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-10T19:05:31,332 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-10T19:05:31,333 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-05-10T19:05:31,375 TRACE com.mc.email.controllers.EmailController - Trace
+2023-05-10T19:05:31,376 DEBUG com.mc.email.controllers.EmailController - Debug
+2023-05-10T19:05:31,376 INFO  com.mc.email.controllers.EmailController - Info
+2023-05-10T19:05:31,377 WARN  com.mc.email.controllers.EmailController - Warn
+2023-05-10T19:05:31,378 ERROR com.mc.email.controllers.EmailController - Error
+2023-05-10T19:05:31,379 FATAL com.mc.email.controllers.EmailController - Fatal
+2023-05-10T19:06:54,199 INFO  com.mc.email.services.EmailService - Email sent successfully to: mateus.oak99@gmail.com 
+2023-05-10T19:06:54,221 INFO  com.mc.email.services.EmailService - Email saved successfully emailId: e66a86d1-b555-41ad-aadb-c3a389901a5e 
+2023-05-10T19:06:59,934 TRACE com.mc.email.controllers.EmailController - Trace
+2023-05-10T19:06:59,935 DEBUG com.mc.email.controllers.EmailController - Debug
+2023-05-10T19:06:59,935 INFO  com.mc.email.controllers.EmailController - Info
+2023-05-10T19:06:59,936 WARN  com.mc.email.controllers.EmailController - Warn
+2023-05-10T19:06:59,937 ERROR com.mc.email.controllers.EmailController - Error
+2023-05-10T19:06:59,939 FATAL com.mc.email.controllers.EmailController - Fatal
+2023-05-10T19:18:05,644 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-05-10T19:18:05,677 INFO  com.mc.email.EmailApplicationTests - Starting EmailApplicationTests using Java 17.0.4 with PID 9248 (started by mateu in C:\Users\mateu\OneDrive\Desktop\Projetos\email)
+2023-05-10T19:18:05,682 DEBUG com.mc.email.EmailApplicationTests - Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-10T19:18:05,684 INFO  com.mc.email.EmailApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-10T19:18:06,721 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-10T19:18:06,805 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interfaces.
+2023-05-10T19:18:07,523 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-10T19:18:07,649 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-10T19:18:08,265 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-10T19:18:08,519 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4522d793
+2023-05-10T19:18:08,523 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-10T19:18:08,605 INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-10T19:18:09,632 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-10T19:18:09,643 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-10T19:18:10,294 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-10T19:18:11,286 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [chimpanzee.rmq.cloudamqp.com:5671]
+2023-05-10T19:18:12,627 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#70d16858:0/SimpleConnection@13288174 [delegate=amqp://evtjidfe@35.153.225.39:5671/evtjidfe, localPort=54171]
+2023-05-10T19:18:13,698 INFO  com.mc.email.EmailApplicationTests - Started EmailApplicationTests in 8.544 seconds (process running for 9.912)
+2023-05-10T19:18:14,093 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2023-05-10T19:18:14,888 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2023-05-10T19:18:14,890 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+2023-05-10T19:18:15,081 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-10T19:18:15,084 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-10T19:18:15,088 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

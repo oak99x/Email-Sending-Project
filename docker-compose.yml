@@ -1,0 +1,30 @@
+version: '3.9'
+services:
+  db:
+    image: postgres:12-alpine
+    container_name: ms-email-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234567
+      POSTGRES_DB: ms-email
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+  app:
+    build:
+        context: .
+        dockerfile: Dockerfile
+    container_name: ms-email-spring
+    depends_on:
+      - db
+    restart: always
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/ms-email
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: 1234567
+    ports:
+      - "8080:8080"
+volumes:
+  db-data:
